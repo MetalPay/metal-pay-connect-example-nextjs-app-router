@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 
+export const runtime = 'edge'
 // Function to generate a nonce (e.g., a timestamp or a random string)
 function generateNonce() {
   return Date.now().toString(); // You can use a more sophisticated method if needed
